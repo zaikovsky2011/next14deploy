@@ -67,7 +67,8 @@ gotoSection(0, 1);
   	<div class="outer">
     <div className='inner flex flex-col justify-end bg-gradient-to-t from-customPurple-900 to-customDarkPurple-900'>
 			<video autoPlay loop muted playsInline className=' z-10'>
-        <source src="/videos/aqualang.webm" type="video/webm" />
+
+				<source src="/videos/aqualang.mp4" type="video/mp4" />
 			</video>
 			<div className=' w-[1440px] h-[415px] bg-gradient-to-t from-customBlue-600 to-customBlue-100'></div>
 			<Image src={'/images/moon.png'} width={150} height={150} className=' absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2'/>
