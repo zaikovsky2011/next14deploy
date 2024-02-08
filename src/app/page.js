@@ -67,6 +67,7 @@ gotoSection(0, 1);
   	<div class="outer">
     <div className='inner flex flex-col justify-end bg-gradient-to-t from-customPurple-900 to-customDarkPurple-900'>
 			<video autoPlay loop muted playsInline className=' z-10'>
+				<source src="/videos/aqualang.mp4" type='video/mp4; codecs=hvc1' />
         <source src="/videos/aqualang.webm" type="video/webm" />
 		
 			</video>
